@@ -26,16 +26,14 @@ npm install --save node-dependency-injection-express-middleware
 Usage
 -----------
 
+#### Minimal configuration
 ```js
 import NodeInjectionMiddleware from 'node-dependency-injection-express-middleware'
 import express from 'express'
 
 const app = express()
 
-const options = {
-  serviceFilePath: 'some/path/to/config.yml', 
-  compile: true
-}
+const options = {serviceFilePath: 'some/path/to/config.yml'}
 app.use(new NodeInjectionMiddleware(options).middleware())
 ```
 
@@ -47,6 +45,26 @@ app.use(new NodeInjectionMiddleware(options).middleware())
 | compile                    | false    | boolean         | false          |
 | compilerPass               | false    | array           | []             |
 | logger                     | false    | class or object | null           |
+
+### How to use all options
+
+```js
+import MyCustomPass from 'CompilerPass/MyCustomPass'
+import AnotherAwesomePass from 'CompilerPass/AnotherAwesomePass'
+import MyCustomLogger from 'MyCustomLogger'
+import NDIMiddleware from 'node-dependency-injection-express-middleware'
+import express from 'express'
+
+const app = express()
+
+const options = {
+  serviceFilePath: 'some/path/to/config.yml', 
+  compile: true,
+  compilerPass: [new MyCustomPass(), new AnotherAwesomePass()],
+  logger: new MyCustomLogger()
+}
+app.use(new NDIMiddleware(options).middleware())
+```
 
 ### How to get the container
 
