@@ -1,0 +1,81 @@
+{
+  "name": "dependency-injection-express-middleware",
+  "version": "0.0.0",
+  "description": "Node Dependency Injection Express Middleware",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "cross-env NODE_ENV=test mocha",
+    "test:coverage": "cross-env NODE_ENV=test nyc --reporter=lcov --reporter=text mocha",
+    "test:standard": "standard",
+    "test:standard:fix": "standard --fix",
+    "build": "rm -rf dist/* && babel lib -d dist",
+    "report:coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
+    "preversion": "npm run test:standard && npm test",
+    "version": "npm run build",
+    "postversion": "git push && git push --tags && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zazoomauro/node-dependency-injection-express-middleware.git"
+  },
+  "keywords": [
+    "express",
+    "middleware",
+    "node",
+    "dependency",
+    "injection",
+    "service",
+    "container",
+    "console",
+    "inversion-of-control",
+    "service-locator"
+  ],
+  "author": "Mauro Gadaleta <mggadaleta@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zazoomauro/node-dependency-injection-express-middleware/issues"
+  },
+  "homepage": "https://github.com/zazoomauro/node-dependency-injection-express-middleware#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "node-dependency-injection": "^2.0.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-istanbul": "^4.1.6",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "chai": "^4.1.2",
+    "codecov": "^4.0.0-0",
+    "cross-env": "^5.1.6",
+    "eslint": "^4.19.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-config-standard-jsx": "^5.0.0",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-react": "^7.9.1",
+    "eslint-plugin-standard": "^3.1.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.17.5",
+    "nyc": "^12.0.2",
+    "path": "^0.12.7",
+    "standard": "^11.0.1"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ],
+    "env": {
+      "test": {
+        "plugins": [
+          "istanbul"
+        ]
+      }
+    }
+  },
+  "nyc": {
+    "sourceMap": false,
+    "instrument": false
+  },
+  "false": {}
+}
