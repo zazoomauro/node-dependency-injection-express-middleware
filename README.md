@@ -10,7 +10,7 @@ A Node Dependency Injection middleware for Express
 [![Dependencies](https://david-dm.org/zazoomauro/node-dependency-injection-express-middleware.svg)](https://david-dm.org/zazoomauro/node-dependency-injection)
 [![DevDependencies](https://david-dm.org/zazoomauro/node-dependency-injection-express-middleware/dev-status.svg)](https://david-dm.org/zazoomauro/node-dependency-injection#info=devDependencies)
 [![Code Coverage](https://codecov.io/gh/zazoomauro/node-dependency-injection-express-middleware/branch/master/graph/badge.svg)](https://codecov.io/gh/zazoomauro/node-dependency-injection)
-[![Code Climate](https://codeclimate.com/github/zazoomauro/node-dependency-injection-express-middleware/badges/gpa.svg)](https://codeclimate.com/github/zazoomauro/node-dependency-injection)
+[![Maintainability](https://api.codeclimate.com/v1/badges/54d93c7090e693ab753c/maintainability)](https://codeclimate.com/github/zazoomauro/node-dependency-injection-express-middleware/maintainability)
 [![Coding Standard](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 [![Known Vulnerabilities](https://snyk.io/test/github/zazoomauro/node-dependency-injection-express-middleware/badge.svg)](https://snyk.io/test/github/zazoomauro/node-dependency-injection)
 [![Npm Downloads](https://img.shields.io/npm/dm/node-dependency-injection-express-middleware.svg?maxAge=2592000)](https://www.npmjs.com/package/node-dependency-injection)
