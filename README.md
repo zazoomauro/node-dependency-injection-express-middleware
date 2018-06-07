@@ -5,16 +5,16 @@ Node Dependency Injection Express Middleware
 
 A Node Dependency Injection middleware for Express
 
-[![Npm Version](https://badge.fury.io/js/node-dependency-injection-express-middleware.svg)](https://badge.fury.io/js/node-dependency-injection)
-[![Build Status](https://travis-ci.org/zazoomauro/node-dependency-injection-express-middleware.svg?branch=master)](https://travis-ci.org/zazoomauro/node-dependency-injection)
-[![Dependencies](https://david-dm.org/zazoomauro/node-dependency-injection-express-middleware.svg)](https://david-dm.org/zazoomauro/node-dependency-injection)
-[![DevDependencies](https://david-dm.org/zazoomauro/node-dependency-injection-express-middleware/dev-status.svg)](https://david-dm.org/zazoomauro/node-dependency-injection#info=devDependencies)
-[![Code Coverage](https://codecov.io/gh/zazoomauro/node-dependency-injection-express-middleware/branch/master/graph/badge.svg)](https://codecov.io/gh/zazoomauro/node-dependency-injection)
+[![Npm Version](https://badge.fury.io/js/node-dependency-injection-express-middleware.svg)](https://badge.fury.io/js/node-dependency-injection-express-middleware)
+[![Build Status](https://travis-ci.org/zazoomauro/node-dependency-injection-express-middleware.svg?branch=master)](https://travis-ci.org/zazoomauro/node-dependency-injection-express-middleware)
+[![Dependencies](https://david-dm.org/zazoomauro/node-dependency-injection-express-middleware.svg)](https://david-dm.org/zazoomauro/node-dependency-injection-express-middleware)
+[![DevDependencies](https://david-dm.org/zazoomauro/node-dependency-injection-express-middleware/dev-status.svg)](https://david-dm.org/zazoomauro/node-dependency-injection-express-middleware#info=devDependencies)
+[![Code Coverage](https://codecov.io/gh/zazoomauro/node-dependency-injection-express-middleware/branch/master/graph/badge.svg)](https://codecov.io/gh/zazoomauro/node-dependency-injection-express-middleware)
 [![Maintainability](https://api.codeclimate.com/v1/badges/54d93c7090e693ab753c/maintainability)](https://codeclimate.com/github/zazoomauro/node-dependency-injection-express-middleware/maintainability)
 [![Coding Standard](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
-[![Known Vulnerabilities](https://snyk.io/test/github/zazoomauro/node-dependency-injection-express-middleware/badge.svg)](https://snyk.io/test/github/zazoomauro/node-dependency-injection)
-[![Npm Downloads](https://img.shields.io/npm/dm/node-dependency-injection-express-middleware.svg?maxAge=2592000)](https://www.npmjs.com/package/node-dependency-injection)
-[![License](https://img.shields.io/npm/l/node-dependency-injection-express-middleware.svg?maxAge=2592000?style=plastic)](https://github.com/zazoomauro/node-dependency-injection/blob/master/LICENCE)
+[![Known Vulnerabilities](https://snyk.io/test/github/zazoomauro/node-dependency-injection-express-middleware/badge.svg)](https://snyk.io/test/github/zazoomauro/node-dependency-injection-express-middleware)
+[![Npm Downloads](https://img.shields.io/npm/dm/node-dependency-injection-express-middleware.svg?maxAge=2592000)](https://www.npmjs.com/package/node-dependency-injection-express-middleware)
+[![License](https://img.shields.io/npm/l/node-dependency-injection-express-middleware.svg?maxAge=2592000?style=plastic)](https://github.com/zazoomauro/node-dependency-injection-express-middleware/blob/master/LICENCE)
  
 Installation
 ------------
