@@ -2,7 +2,7 @@
 
 import express from 'express'
 import DependencyInjectionMiddleware from
-    '../../lib/DependencyInjectionMiddleware'
+  '../../lib/DependencyInjectionMiddleware'
 import path from 'path'
 import chai from 'chai'
 import FooPass from '../lib/FooPass'
@@ -16,7 +16,7 @@ describe('DependencyInjectionMiddleware', () => {
   beforeEach(() => {
     app = express()
     options = {
-      serviceFilePath: path.join(__dirname, '..', 'resources', 'services.yml'),
+      serviceFilePath: path.join(__dirname, '..', 'resources', 'services.yml')
     }
   })
 
