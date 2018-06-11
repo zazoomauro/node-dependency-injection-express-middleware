@@ -1,8 +1,7 @@
 /* global describe, beforeEach, it */
 
 import express from 'express'
-import Index from
-  '../../lib/DependencyInjectionMiddleware'
+import Index from '../../lib/'
 import path from 'path'
 import chai from 'chai'
 import FooPass from '../lib/FooPass'
