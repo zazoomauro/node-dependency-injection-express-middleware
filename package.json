@@ -1,6 +1,6 @@
 {
   "name": "node-dependency-injection-express-middleware",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Node Dependency Injection Express Middleware",
   "main": "dist/index.js",
   "scripts": {
