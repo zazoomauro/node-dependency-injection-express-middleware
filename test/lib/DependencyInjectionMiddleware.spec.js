@@ -1,7 +1,7 @@
 /* global describe, beforeEach, it */
 
 import express from 'express'
-import DependencyInjectionMiddleware from
+import Index from
   '../../lib/DependencyInjectionMiddleware'
 import path from 'path'
 import chai from 'chai'
@@ -27,7 +27,7 @@ describe('DependencyInjectionMiddleware', () => {
 
       // Act.
       const actual = () => app.use(
-        new DependencyInjectionMiddleware(options).middleware())
+        new Index(options).middleware())
 
       // Assert.
       return assert.throw(actual, 'bar is not supported')
@@ -40,7 +40,7 @@ describe('DependencyInjectionMiddleware', () => {
 
     // Act.
     const actual = () => app.use(
-      new DependencyInjectionMiddleware(options).middleware())
+      new Index(options).middleware())
 
     // Assert.
     return assert.doesNotThrow(actual)
@@ -53,7 +53,7 @@ describe('DependencyInjectionMiddleware', () => {
 
     // Act.
     const actual = () => app.use(
-      new DependencyInjectionMiddleware(options).middleware())
+      new Index(options).middleware())
 
     // Assert.
     return assert.doesNotThrow(actual)
@@ -66,7 +66,7 @@ describe('DependencyInjectionMiddleware', () => {
 
     // Act.
     const actual = () => app.use(
-      new DependencyInjectionMiddleware(options).middleware())
+      new Index(options).middleware())
 
     // Assert.
     return assert.doesNotThrow(actual)
@@ -78,7 +78,7 @@ describe('DependencyInjectionMiddleware', () => {
 
     // Act.
     const actual = () => app.use(
-      new DependencyInjectionMiddleware(options).middleware())
+      new Index(options).middleware())
 
     // Assert.
     return assert.doesNotThrow(actual)
@@ -91,7 +91,7 @@ describe('DependencyInjectionMiddleware', () => {
 
     // Act.
     const actual = () => app.use(
-      new DependencyInjectionMiddleware(options).middleware())
+      new Index(options).middleware())
 
     // Assert.
     return assert.doesNotThrow(actual)
@@ -103,7 +103,7 @@ describe('DependencyInjectionMiddleware', () => {
 
     // Act.
     const actual = () => app.use(
-      new DependencyInjectionMiddleware(options).middleware())
+      new Index(options).middleware())
 
     // Assert.
     return assert.doesNotThrow(actual)
