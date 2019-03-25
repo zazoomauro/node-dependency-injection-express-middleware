@@ -39,12 +39,14 @@ app.use(new NodeInjectionMiddleware(options).middleware())
 
 ### Options
 
-| Name                       | Required | Type Value      | Default Value  |
-| -------------------------- | -------- | --------------- | -------------- |
-| serviceFilePath            | true     | string          |                |
-| compile                    | false    | boolean         | false          |
-| compilerPass               | false    | array           | []             |
-| logger                     | false    | class or object | null           |
+| Name                        | Required | Type Value      | Default Value  |
+| --------------------------- | -------- | --------------- | -------------- |
+| serviceFilePath             | true     | string          |                |
+| compile                     | false    | boolean         | false          |
+| compilerPass                | false    | array           | []             |
+| logger                      | false    | class or object | null           |
+| containerReferenceAsService | false    | boolean         | false          |
+| defaultDir                  | false    | string          | null           |
 
 ### How to use all options
 
@@ -61,7 +63,9 @@ const options = {
   serviceFilePath: 'some/path/to/config.yml', 
   compile: true,
   compilerPass: [new MyCustomPass(), new AnotherAwesomePass()],
-  logger: new MyCustomLogger()
+  logger: new MyCustomLogger(),
+  containerReferenceAsService: true,
+  defaultDir: '/some/cool/dir',
 }
 app.use(new NDIMiddleware(options).middleware())
 ```
