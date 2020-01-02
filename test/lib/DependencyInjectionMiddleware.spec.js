@@ -5,9 +5,9 @@ import Index from '../../lib/'
 import path from 'path'
 import chai from 'chai'
 import FooPass from '../lib/FooPass'
-import {ContainerBuilder} from 'node-dependency-injection'
+import { ContainerBuilder } from 'node-dependency-injection'
 
-let assert = chai.assert
+const assert = chai.assert
 
 describe('DependencyInjectionMiddleware', () => {
   let app
