@@ -1,9 +1,5 @@
-diff: true
-extension:
-  - js
-opts: ./test/mocha.opts
-package: ./package.json
-reporter: spec
-slow: 75
-timeout: 100
+require: '@babel/register'
+spec: test/lib/**/*.spec.js
+color: true
 ui: bdd
+reporter: nyan
