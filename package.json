@@ -37,7 +37,7 @@
   },
   "homepage": "https://github.com/zazoomauro/node-dependency-injection-express-middleware#readme",
   "dependencies": {
-    "node-dependency-injection": "^2.4.5",
+    "node-dependency-injection": "^2.6.11",
     "path": "^0.12.7"
   },
   "devDependencies": {
